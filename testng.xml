@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="直播自动化" verbose="1" preserve-order="true" parallel="false">
+  <test name="上课">
+    <classes>
+      <class name="testcases.Timetable">
+      </class>
+    </classes>
+  </test>
+
+
+
+  <!--<listeners>-->
+  <!--<listener class-name="com.qa.report.ExtentTestNGReporterListener"></listener>-->
+  <!--</listeners>-->
+</suite>
+
+
