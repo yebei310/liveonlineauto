@@ -23,6 +23,7 @@ public class Timetable {
             driver.manage().window().maximize();
             String url = "https://test-staff.puxinwangxiao.com/";
             driver.get(url);
+            System.out.printf("打开页面");
         }
         @Test
         public void setLogin ()throws Exception {
@@ -31,6 +32,7 @@ public class Timetable {
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[1]/div[3]/div/div[2]/form/div[2]/div[1]/div/div[1]/input")).sendKeys("abc123456");
             driver.findElement(By.xpath("//*[@id=\"app\"]/div/div[1]/div[3]/div/div[2]/form/div[3]")).click();
             Thread.sleep(3000);
+            System.out.printf("登录成功");
             String tssUrl = "https://test-tss.puxinwangxiao.com/myCourse/todoList";
             driver.get(tssUrl);
             Thread.sleep(5000);
