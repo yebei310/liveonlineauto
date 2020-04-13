@@ -18,7 +18,10 @@ public class Timetable {
         WebDriver driver;
         @BeforeMethod
         public void setUp () throws Exception {
-            System.setProperty("webdriver.chrome.driver", "D:\\auto\\driver\\chromedriver.exe");// chromedriver驱动存放地址
+
+
+//            System.setProperty("webdriver.chrome.driver", "D:\\auto\\driver\\chromedriver.exe");// chromedriver驱动存放地址
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\driver\\chromedriver.exe");// chro
             driver = new ChromeDriver();
             driver.manage().window().maximize();
             String url = "https://test-staff.puxinwangxiao.com/";
@@ -45,7 +48,7 @@ public class Timetable {
             driver.navigate().refresh();
             Thread.sleep(8000);
             driver.findElement(By.xpath("//*[@id=\"class-panel-container\"]/div[5]/div")).click();
-            Thread.sleep(1000);
+            Thread.sleep(10000);
         }
         @AfterMethod
         public void tearDown() throws Exception {

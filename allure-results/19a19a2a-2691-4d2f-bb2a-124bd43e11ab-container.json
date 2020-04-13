@@ -1,0 +1,1 @@
+{"uuid":"19a19a2a-2691-4d2f-bb2a-124bd43e11ab","name":"testcases.Timetable.setUp","description":"","start":1586781319117,"stop":1586781326638,"children":["e65bda3e-6e32-4cd3-b142-14532aab34b6"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","start":1586781319118,"stop":1586781326638}]}
