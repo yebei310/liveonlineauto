@@ -27,6 +27,7 @@ public class Timetable {
             String url = "https://test-staff.puxinwangxiao.com/";
             driver.get(url);
             System.out.printf("打开页面");
+            System.out.printf("打开页面");
         }
         @Test
         public void setLogin ()throws Exception {

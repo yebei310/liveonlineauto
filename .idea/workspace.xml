@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c1472f53-8ae6-416a-956c-4db591db645a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testcases/Timetable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testcases/Timetable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/driver" />
+    <property name="last_opened_file_path" value="D:/pxwx/WD_iOS_Appium/WD_iOS_Appium" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -347,7 +348,7 @@
       <workItem from="1584600397082" duration="7923000" />
       <workItem from="1584968138191" duration="213000" />
       <workItem from="1585019793041" duration="632000" />
-      <workItem from="1585188065291" duration="11852000" />
+      <workItem from="1585188065291" duration="18257000" />
     </task>
     <servers />
   </component>
@@ -363,10 +364,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1585895657517">
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1586931628830">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585895657517" />
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586931628830" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1586781317140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -421,12 +422,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/testcases/Timetable.java</url>
-          <line>30</line>
+          <line>31</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/testcases/Timetable.java</url>
-          <line>43</line>
+          <line>44</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
